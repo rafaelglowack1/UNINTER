@@ -1,0 +1,156 @@
+body{
+    background-image: url(img/preto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+               
+    color: white;
+    font-family: cursive;
+}
+/*Cabeçalho da página principal */
+header{
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+
+    
+}
+
+/*Estrutura o tamanho e a cor de todos os sections que usei  */
+section{
+    width: 700px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    margin: auto;
+    border-radius: 0px 0px 12px 12px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+}
+/*Editando os botões da página Príncipal */
+li{
+    padding: 13px;
+    text-decoration-line: none;
+    list-style-type: none;
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: rgb(121, 121, 121);
+    border-radius: 20px 0px;
+    width: 100px;
+    box-shadow: 4px 2px 16px rgba(255, 255, 255, 0.377);
+}
+/*quando o mause está sobre o botão */
+li:hover{
+    color :rgb(44, 71, 102);
+    background-color: rgb(179, 179, 179);
+    cursor: pointer;
+    transition: 0.5s;
+}
+article{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+/*configura os links da página príncipal */
+#redes{
+    display: flex;
+    margin-left: 40px;
+    
+}
+#editavel{
+    margin-right: 30px;
+}
+#linkcorpo{
+    text-decoration: none;
+    color :rgb(85, 121, 161);
+}
+#linkcorpo:hover{
+    color: rgb(144, 171, 223);
+    font-style: italic;
+}
+/*Coloquei imagende fundo usando o Background image */
+#secMIM{
+    background-image: url(img/pixel1.jpg);
+    background-size: cover;
+    opacity: 50%;
+}
+#secforma{
+    background-image: url(img/pixel2.jpg);
+    background-position: center ;
+    opacity: 50%;
+}
+#secport{
+    background-image: url(img/pixel3.jpg);
+    background-position: center ;
+    opacity: 40%;
+}
+#secCont{
+    background-image: url(img/pixel4.jpg);
+    background-position: center ;
+    opacity: 40%;
+}
+/*quando o mause está sobre o link da página portifólio */
+#secport > a:hover{
+    color :rgb(255, 211, 90);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*Edita os textos das paginas */
+#secport > p{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    font-size: larger;
+}
+#secforma > p{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    color: black;
+    opacity: 100%;
+    font-size: larger;
+}
+#secMIM > p{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    color: black;
+    opacity: 100%;
+    font-size: larger;
+
+}
+#secCont > p{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: black;
+    opacity: 100%;
+    font-size: larger;
+    margin-bottom: -20PX;
+
+}
+/*Formulário da página contato*/
+form{
+    margin: 30px;
+}
+input{
+    margin-bottom: 6px;
+    padding: 4px;
+    width: 170px;
+}
+#textarea{
+    width: 170px;
+    height: 100px;
+    resize: none;
+}
